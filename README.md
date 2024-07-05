@@ -1,8 +1,8 @@
-# Photo Object Remover API
+# Photo Object Replacer API
 
 ## Description
 
-The Photo Object Remover API is a powerful tool that enables users to remove specific objects from images and replace them with new objects. This service integrates with the Phot.ai API to provide high-quality object replacement in images.
+The Photo Object Replacer API is a  tool that enables users to remove specific objects from images and replace them with new objects. This service integrates with the Phot.ai API to provide high-quality object replacement in images.
 
 ## Features
 
@@ -26,12 +26,12 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone the repository:
 ```
-git clone https://github.com/your-username/photo-object-remover.git
+git clone https://github.com/mabrur-h/image-object-replacer.git
 ```
 
 2. Navigate to the project directory:
 ```
-cd photo-object-remover
+cd image-object-replacer
 ```
 
 3. Install the dependencies:
