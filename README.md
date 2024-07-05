@@ -78,8 +78,14 @@ The API will be available at `http://localhost:3000`.
 - **Content**: 
   ```json
   {
-    "order_id": "string",
-    "status": "processing"
+    "order_status": "order_complete",
+    "order_status_code": 200,
+    "output_urls": [
+      "https://s3.us-east-2.wasabisys.com/ai-image-editor-webapp/object_replacer/output_image/2024-07-05T13:19:22.093Z/3dd8u9t_2024-07-05T13:19:22.093Z_output_0.webp",
+      "https://s3.us-east-2.wasabisys.com/ai-image-editor-webapp/object_replacer/output_image/2024-07-05T13:19:22.093Z/3dd8u9t_2024-07-05T13:19:22.093Z_output_1.webp",
+      "https://s3.us-east-2.wasabisys.com/ai-image-editor-webapp/object_replacer/output_image/2024-07-05T13:19:22.093Z/3dd8u9t_2024-07-05T13:19:22.093Z_output_2.webp",
+      "https://s3.us-east-2.wasabisys.com/ai-image-editor-webapp/object_replacer/output_image/2024-07-05T13:19:22.093Z/3dd8u9t_2024-07-05T13:19:22.093Z_output_3.webp"
+    ]
   }
   ```
 
